@@ -93,6 +93,10 @@ public class Kmp {
         int i = kmp.indexIn("abadfasdfasdfasdfbcababa");
         System.out.println(" index at : " + i);
         assert i == 19;
+        
+        i = kmp.indexIn("ababb");
+        System.out.println(" index at : " + i);
+        assert i == -1;
     }
 
 }
